@@ -3,3 +3,4 @@ mcp-publisher.tar.gz
 checksums.txt
 .mcpregistry_*
 publicar.ps1
+publicar.log
