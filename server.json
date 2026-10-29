@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.purasim/purasim-mcp",
+  "title": "PuraSIM travel eSIM",
+  "description": "Search and compare PuraSIM travel eSIM data plans for 187 countries and get a link to buy them.",
+  "version": "1.0.0",
+  "websiteUrl": "https://purasim.com/en",
+  "repository": {
+    "url": "https://github.com/purasim/purasim-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.purasim.com/mcp"
+    }
+  ]
+}
